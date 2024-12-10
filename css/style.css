@@ -1,0 +1,26 @@
+.popup-inner{
+    width: 30%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition:  all linear .3s;
+}
+.popup-inner i {
+    color: red;
+    font-size: 30px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.poppup_main {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.567);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+    transition:  all linear .3s;
+}
